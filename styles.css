@@ -5,10 +5,15 @@
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    margin: auto;
     height: auto;
     width: 350px;
+    /*
     padding-left: 28%;
     padding-top: 0%;
+    */
 }
 
 header {
