@@ -100,12 +100,15 @@ footer {
         font-size: 70%;
     }
 
-    body.logo {
-        min-width: none;
+    .logo {
+        border-bottom: 32px;
+
     }
 
-    body.title {
+    .title {
         text-align: center;
         justify-content: center;
+        border-top: 32px;
+        border-bottom: 64px;
     }
 }
