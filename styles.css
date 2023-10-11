@@ -1,8 +1,8 @@
 * {
     background-color: hsl(264, 100%, 57%);
     box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+    padding: 5%;
+    margin: 5%;
     font-family: "DM Mono", sans-serif;
     color: #040DE1; 
 }
@@ -76,9 +76,20 @@ main.cards section.card button {
     background: linear-gradient(to right, #ddcfff, #040DE1);
 } 
 
-footer {
-        
+img {
+    padding-left: 10px;
 }
+
+/*
+footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: baseline;
+    margin: auto;
+}
+*/
 
 @media screen and (max-width: 720px) {
 
@@ -112,5 +123,9 @@ footer {
         justify-content: center;
         border-top: 32px;
         border-bottom: 64px;
+    }
+
+    footer {
+
     }
 }
