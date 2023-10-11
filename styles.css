@@ -80,6 +80,7 @@ img {
     padding-left: 10px;
 }
 
+/*
 footer {
     display:flex;
     flex-direction: column;
@@ -88,6 +89,7 @@ footer {
     align-content: baseline;
     margin: auto;
 }
+*/
 
 @media screen and (max-width: 720px) {
 
